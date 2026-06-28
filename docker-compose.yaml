@@ -24,7 +24,7 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_API_URL: http://localhost/api
+        VITE_API_URL: http://102.37.136.102/api
         VITE_CLERK_PUBLISHABLE_KEY: pk_test_Y2VydGFpbi1kaW5vc2F1ci00MC5jbGVyay5hY2NvdW50cy5kZXYk
     container_name: frontend
     ports:
