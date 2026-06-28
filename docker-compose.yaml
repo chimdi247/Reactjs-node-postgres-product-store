@@ -11,7 +11,7 @@ services:
 
       DATABASE_URL: postgresql://postgres:pass123@db:5432/products_store
 
-      FRONTEND_URL: http://localhost
+      FRONTEND_URL: http://102.37.136.102
 
       CLERK_SECRET_KEY: sk_test_O4NDVWshf8awPtcqjEWLubfBrkepymYI8njKqXMoGd
       CLERK_PUBLISHABLE_KEY: pk_test_Y2VydGFpbi1kaW5vc2F1ci00MC5jbGVyay5hY2NvdW50cy5kZXYk
